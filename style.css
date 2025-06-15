@@ -1,0 +1,88 @@
+@font-face {
+  font-family: VitoSpicar;
+  src: url(VitoSpicar.ttf);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    color: black;
+    background: none;
+    font-size: 20px;
+    border-style: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    transition: 0.15s;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+}
+
+.button:hover{
+    opacity: 0.7;
+    scale:1.1;
+}
+.button:active{
+    opacity: 0.5;
+    scale: 0.95;
+}
+
+.footer {
+
+    height:24px;
+    width: 100%;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 60px;
+    left: 0pt;
+
+}   
+
+.footer_contents {
+
+    height:24px; 
+    width: 1000px;
+    margin:auto;
+
+}
+
+.shadow{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+.image-shadow{
+    box-shadow: 5px 5px 4px rgba(0, 0, 0,0.5);
+    transition: 0.15s;
+}
+
+.image-shadow:hover{
+    scale: 1.01;
+    opacity: 0.75;
+}
+
+.social{
+    height: 50px;
+    transition: 0.15s;
+}
+.social:hover{
+    opacity: 0.75;
+    scale: 1.1;
+}
+.social:active{
+    opacity: 0.5;
+    scale: 0.9;
+}
+
+.vjezbenaslov{
+    font-family: poppins;
+}
+
+.vjezbenaslovglavni{
+    font-family: poppins;
+}
